@@ -49,3 +49,5 @@ set expandtab
 set shiftwidth=4
 set nocompatible
 set backspace=2
+set completeopt-=preview
+let g:ycm_key_invoke_completion = '<C-b>'
